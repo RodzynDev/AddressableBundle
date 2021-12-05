@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle;
+namespace Daa\Addressable\Bundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\PHPCR;
+namespace Daa\Addressable\Bundle\Model\Traits\PHPCR;
 
-use Addressable\Bundle\Document\Address;
+use Daa\Addressable\Bundle\Document\Address;
 
 /**
  * Trait for implementing addressable on a PHPCR document having address as a child node.
@@ -33,7 +33,7 @@ class NestedAddressableTrait
      *
      * @param Address $address
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setAddress(Address $address)
     {

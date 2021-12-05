@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits;
+namespace Daa\Addressable\Bundle\Model\Traits;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -95,7 +95,7 @@ trait Contactable
      *
      * @param array $details
      *
-     * @return \Addressable\Bundle\Model\ContactableInterface
+     * @return \Daa\Addressable\Bundle\Model\ContactableInterface
      */
     public function setContactDetails(array $details)
     {

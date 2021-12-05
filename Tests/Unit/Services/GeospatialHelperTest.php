@@ -2,8 +2,8 @@
 
 namespace Osl\Bundle\Common\Tests\Unit\Services;
 
-use Addressable\Bundle\Model\GeoPointInterface;
-use Addressable\Bundle\Services\GeospatialHelper;
+use Daa\Addressable\Bundle\Model\GeoPointInterface;
+use Daa\Addressable\Bundle\Services\GeospatialHelper;
 
 class GeospatialHelperTest extends \PHPUnit_Framework_TestCase
 {

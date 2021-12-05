@@ -1,9 +1,9 @@
 <?php
 
-namespace Addressable\Bundle\Tests\Unit\Form\Type;
+namespace Daa\Addressable\Bundle\Tests\Unit\Form\Type;
 
-use Addressable\Bundle\Validator\Constraints\Latitude;
-use Addressable\Bundle\Validator\Constraints\LatitudeValidator;
+use Daa\Addressable\Bundle\Validator\Constraints\Latitude;
+use Daa\Addressable\Bundle\Validator\Constraints\LatitudeValidator;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 
 /**

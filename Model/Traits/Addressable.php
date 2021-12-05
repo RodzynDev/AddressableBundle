@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits;
+namespace Daa\Addressable\Bundle\Model\Traits;
 
 /**
  * Trait for implementing Get & Setters for addressable entities.
@@ -20,7 +20,7 @@ trait Addressable
      *
      * @param string $country
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setCountry($country)
     {
@@ -42,7 +42,7 @@ trait Addressable
      *
      * @param string $zipCode
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setZipCode($zipCode)
     {
@@ -64,7 +64,7 @@ trait Addressable
      *
      * @param string $streetNumber
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setStreetNumber($streetNumber)
     {
@@ -86,7 +86,7 @@ trait Addressable
      *
      * @param string $streetName
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setStreetName($streetName)
     {
@@ -108,7 +108,7 @@ trait Addressable
      *
      * @param string $city
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setCity($city)
     {
@@ -130,7 +130,7 @@ trait Addressable
      *
      * @param string $latitude
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setLatitude($latitude)
     {
@@ -152,7 +152,7 @@ trait Addressable
      *
      * @param string $longitude
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setLongitude($longitude)
     {
@@ -193,7 +193,7 @@ trait Addressable
      *
      * @param array $address
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setAddress(array $address)
     {

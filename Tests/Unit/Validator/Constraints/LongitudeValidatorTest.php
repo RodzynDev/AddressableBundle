@@ -1,9 +1,9 @@
 <?php
 
-namespace Addressable\Bundle\Tests\Unit\Form\Type;
+namespace Daa\Addressable\Bundle\Tests\Unit\Form\Type;
 
-use Addressable\Bundle\Validator\Constraints\Longitude;
-use Addressable\Bundle\Validator\Constraints\LongitudeValidator;
+use Daa\Addressable\Bundle\Validator\Constraints\Longitude;
+use Daa\Addressable\Bundle\Validator\Constraints\LongitudeValidator;
 
 /**
  * Ensures correct behaviour of LongitudeValidator

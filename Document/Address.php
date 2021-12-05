@@ -1,10 +1,10 @@
 <?php
 
-namespace Addressable\Bundle\Document;
+namespace Daa\Addressable\Bundle\Document;
 
-use Addressable\Bundle\Model\AddressableInterface;
-use Addressable\Bundle\Model\Traits\PHPCR\AddressableTrait;
-use Addressable\Bundle\Validator\Constraints as AddressValidator;
+use Daa\Addressable\Bundle\Model\AddressableInterface;
+use Daa\Addressable\Bundle\Model\Traits\PHPCR\AddressableTrait;
+use Daa\Addressable\Bundle\Validator\Constraints as AddressValidator;
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCR;
 use Symfony\Component\Validator\Constraints as Assert;
 

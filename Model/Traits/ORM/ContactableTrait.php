@@ -1,9 +1,9 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\ORM;
+namespace Daa\Addressable\Bundle\Model\Traits\ORM;
 
 use Doctrine\ORM\Mapping as ORM;
-use Addressable\Bundle\Model\Traits\Contactable;
+use Daa\Addressable\Bundle\Model\Traits\Contactable;
 
 /**
  * Trait for implementing contactable on an ORM entity.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle\Model;
+namespace Daa\Addressable\Bundle\Model;
 
 /**
  * Describes object that are contactable.

@@ -1,10 +1,10 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\PHPCR;
+namespace Daa\Addressable\Bundle\Model\Traits\PHPCR;
 
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCR;
-use Addressable\Bundle\Validator\Constraints as Address;
-use Addressable\Bundle\Model\Traits\Addressable;
+use Daa\Addressable\Bundle\Validator\Constraints as Address;
+use Daa\Addressable\Bundle\Model\Traits\Addressable;
 
 /**
  * Trait for implementing addressable on a PHPCR document.

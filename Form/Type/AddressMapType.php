@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle\Form\Type;
+namespace Daa\Addressable\Bundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;

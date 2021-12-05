@@ -2,7 +2,7 @@
 
 namespace Osl\Bundle\Common\Tests\Unit\Model;
 
-use Addressable\Bundle\Entity\Address;
+use Daa\Addressable\Bundle\Entity\Address;
 
 class AddressTest extends \PHPUnit_Framework_TestCase
 {

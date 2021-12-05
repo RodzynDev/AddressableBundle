@@ -1,10 +1,10 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\ORM;
+namespace Daa\Addressable\Bundle\Model\Traits\ORM;
 
 use Doctrine\ORM\Mapping as ORM;
-use Addressable\Bundle\Validator\Constraints as Address;
-use Addressable\Bundle\Model\Traits\Addressable;
+use Daa\Addressable\Bundle\Validator\Constraints as Address;
+use Daa\Addressable\Bundle\Model\Traits\Addressable;
 
 /**
  * Trait for implementing addressable on an ORM entity.

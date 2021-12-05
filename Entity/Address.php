@@ -1,10 +1,10 @@
 <?php
 
-namespace Addressable\Bundle\Entity;
+namespace Daa\Addressable\Bundle\Entity;
 
-use Addressable\Bundle\Model\AddressableInterface;
-use Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
-use Addressable\Bundle\Validator\Constraints as AddressValidator;
+use Daa\Addressable\Bundle\Model\AddressableInterface;
+use Daa\Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
+use Daa\Addressable\Bundle\Validator\Constraints as AddressValidator;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 

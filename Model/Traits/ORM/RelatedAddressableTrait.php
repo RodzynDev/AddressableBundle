@@ -1,8 +1,8 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\ORM;
+namespace Daa\Addressable\Bundle\Model\Traits\ORM;
 
-use Addressable\Bundle\Entity\Address;
+use Daa\Addressable\Bundle\Entity\Address;
 
 /**
  * Trait for implementing addressable on an ORM entity having address as a relation.
@@ -10,7 +10,7 @@ use Addressable\Bundle\Entity\Address;
 class RelatedAddressableTrait
 {
     /**
-     * @ManyToOne(targetEntity="Addressable\Bundle\Entity\Address")
+     * @ManyToOne(targetEntity="Daa\Addressable\Bundle\Entity\Address")
      */
     private $address;
 
@@ -33,7 +33,7 @@ class RelatedAddressableTrait
      *
      * @param Address $address
      *
-     * @return \Addressable\Bundle\Model\AddressableInterface
+     * @return \Daa\Addressable\Bundle\Model\AddressableInterface
      */
     public function setAddress(Address $address)
     {

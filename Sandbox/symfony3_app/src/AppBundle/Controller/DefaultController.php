@@ -3,8 +3,8 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Buyer;
-use Addressable\Bundle\Form\Type\AddressMapType;
-use Addressable\Bundle\Form\Type\ContactDetailsType;
+use Daa\Addressable\Bundle\Form\Type\AddressMapType;
+use Daa\Addressable\Bundle\Form\Type\ContactDetailsType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;

@@ -2,10 +2,10 @@
 
 namespace AppBundle\Entity;
 
-use Addressable\Bundle\Model\AddressableInterface;
-use Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
-use Addressable\Bundle\Model\ContactableInterface;
-use Addressable\Bundle\Model\Traits\ORM\ContactableTrait;
+use Daa\Addressable\Bundle\Model\AddressableInterface;
+use Daa\Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
+use Daa\Addressable\Bundle\Model\ContactableInterface;
+use Daa\Addressable\Bundle\Model\Traits\ORM\ContactableTrait;
 
 class Buyer implements AddressableInterface, ContactableInterface
 {

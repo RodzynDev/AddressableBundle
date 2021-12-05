@@ -25,7 +25,7 @@ Add the following to composer.json:
 Register the bundle in your `app/AppKernel.php`:
 
 ```php
-new Addressable\Bundle\AddressableBundle(),
+new Daa\Addressable\Bundle\AddressableBundle(),
 ```
 
 Include the twig template for the type layout.
@@ -46,11 +46,11 @@ Now your entity or document must:
 ```php
     namespace Your\Project\Entity;
 
-    use Addressable\Bundle\Model\AddressableInterface;
-    use Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
+    use Daa\Addressable\Bundle\Model\AddressableInterface;
+    use Daa\Addressable\Bundle\Model\Traits\ORM\AddressableTrait;
     # for optional email, tel, fax fields also include and use these
-    use Addressable\Bundle\Model\ContactableInterface;
-    use Addressable\Bundle\Model\Traits\ORM\ContactableTrait;
+    use Daa\Addressable\Bundle\Model\ContactableInterface;
+    use Daa\Addressable\Bundle\Model\Traits\ORM\ContactableTrait;
 
     class YourEntity implements AddressableInterface, ContactableInterface
     {
@@ -71,8 +71,8 @@ Note, if you are using an older version of PHP which does not support traits, th
 Once your entity is setup, we can add the address map selector to your forms in the following ways:
 
 ```php
-use Addressable\Bundle\Form\Type\AddressMapType;
-use Addressable\Bundle\Form\Type\ContactDetailsType; # optional email, tel, fax
+use Daa\Addressable\Bundle\Form\Type\AddressMapType;
+use Daa\Addressable\Bundle\Form\Type\ContactDetailsType; # optional email, tel, fax
 
 // if you are using standard symfony form type
 public function buildForm(FormBuilderInterface $builder, array $options)

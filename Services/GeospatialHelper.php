@@ -1,8 +1,8 @@
 <?php
 
-namespace Addressable\Bundle\Services;
+namespace Daa\Addressable\Bundle\Services;
 
-use Addressable\Bundle\Model\GeoPointInterface;
+use Daa\Addressable\Bundle\Model\GeoPointInterface;
 
 class GeospatialHelper
 {

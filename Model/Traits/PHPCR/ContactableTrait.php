@@ -1,9 +1,9 @@
 <?php
 
-namespace Addressable\Bundle\Model\Traits\PHPCR;
+namespace Daa\Addressable\Bundle\Model\Traits\PHPCR;
 
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCR;
-use Addressable\Bundle\Model\Traits\Contactable;
+use Daa\Addressable\Bundle\Model\Traits\Contactable;
 
 /**
  * Trait for implementing contactable on an ORM entity.

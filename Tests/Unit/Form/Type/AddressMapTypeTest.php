@@ -1,9 +1,9 @@
 <?php
 
-namespace Addressable\Bundle\Tests\Unit\Form\Type;
+namespace Daa\Addressable\Bundle\Tests\Unit\Form\Type;
 
-use Addressable\Bundle\Document\Address;
-use Addressable\Bundle\Form\Type\AddressMapType;
+use Daa\Addressable\Bundle\Document\Address;
+use Daa\Addressable\Bundle\Form\Type\AddressMapType;
 use Symfony\Component\Form\Test\TypeTestCase;
 
 /**

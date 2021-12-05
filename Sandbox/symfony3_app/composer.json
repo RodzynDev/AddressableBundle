@@ -5,7 +5,6 @@
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle",
-            "Addressable\\Bundle\\": "../../",
             "Daa\\Addressable\\Bundle\\": "../../"
         },
         "classmap": [
