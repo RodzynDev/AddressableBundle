@@ -1,5 +1,5 @@
 {
-    "name": "daa/addressable-bundle",
+    "name": "daaeffectivity/addressable-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle to make entities addressable and geo spacial services for searching and comparing their latitude/longitude",
     "authors": [
